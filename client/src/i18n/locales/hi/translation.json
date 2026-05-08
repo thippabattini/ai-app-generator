@@ -1,0 +1,56 @@
+{
+  "welcomeBack": "वापसी पर स्वागत है",
+
+  "loginSubtitle":
+    "अपने AI ऐप जनरेटर में लॉगिन करें",
+
+  "enterEmail":
+    "ईमेल दर्ज करें",
+
+  "enterPassword":
+    "पासवर्ड दर्ज करें",
+
+  "login": "लॉगिन",
+
+  "loggingIn":
+    "लॉगिन हो रहा है...",
+
+  "continueGoogle":
+    "Google के साथ जारी रखें",
+
+  "dontHaveAccount":
+    "क्या आपका अकाउंट नहीं है?",
+
+  "register":
+    "रजिस्टर करें",
+
+  "createAccount":
+    "खाता बनाएं",
+
+  "registerSubtitle":
+    "डायनामिक AI-संचालित ऐप्स बनाएं",
+
+  "enterName":
+    "नाम दर्ज करें",
+
+  "registering":
+    "रजिस्टर हो रहा है...",
+
+  "alreadyHaveAccount":
+    "क्या आपके पास पहले से खाता है?",
+
+  "loginSuccess":
+    "लॉगिन सफल",
+
+  "googleLoginSuccess":
+    "Google लॉगिन सफल",
+
+  "registerSuccess":
+    "पंजीकरण सफल",
+
+  "loginFailed":
+    "लॉगिन विफल",
+
+  "registerFailed":
+    "पंजीकरण विफल"
+}

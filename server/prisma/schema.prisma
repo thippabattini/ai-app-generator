@@ -1,0 +1,54 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  name      String
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+
+  apps App[]
+}
+
+model App {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  config      Json
+  createdAt   DateTime @default(now())
+
+  userId String
+  user   User @relation(fields: [userId], references: [id])
+
+  records Record[]
+}
+
+model Record {
+  id        String   @id @default(cuid())
+  data      Json
+  createdAt DateTime @default(now())
+
+  appId String
+  app   App @relation(fields: [appId], references: [id])
+}
+
+model DynamicRecord {
+  id        String   @id @default(cuid())
+
+  tableName String
+
+  userId    String?
+
+  data      Json
+
+  createdAt DateTime @default(now())
+
+  updatedAt DateTime @updatedAt
+}

@@ -1,0 +1,58 @@
+{
+  "welcomeBack":
+    "Bienvenido de nuevo",
+
+  "loginSubtitle":
+    "Inicia sesión en tu generador de aplicaciones AI",
+
+  "enterEmail":
+    "Ingrese correo electrónico",
+
+  "enterPassword":
+    "Ingrese contraseña",
+
+  "login":
+    "Iniciar sesión",
+
+  "loggingIn":
+    "Iniciando sesión...",
+
+  "continueGoogle":
+    "Continuar con Google",
+
+  "dontHaveAccount":
+    "¿No tienes una cuenta?",
+
+  "register":
+    "Registrarse",
+
+  "createAccount":
+    "Crear cuenta",
+
+  "registerSubtitle":
+    "Construye aplicaciones dinámicas impulsadas por AI",
+
+  "enterName":
+    "Ingrese nombre",
+
+  "registering":
+    "Registrando...",
+
+  "alreadyHaveAccount":
+    "¿Ya tienes una cuenta?",
+
+  "loginSuccess":
+    "Inicio de sesión exitoso",
+
+  "googleLoginSuccess":
+    "Google login exitoso",
+
+  "registerSuccess":
+    "Registro exitoso",
+
+  "loginFailed":
+    "Error al iniciar sesión",
+
+  "registerFailed":
+    "Registro fallido"
+}

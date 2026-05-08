@@ -1,0 +1,58 @@
+{
+  "welcomeBack":
+    "Willkommen zurück",
+
+  "loginSubtitle":
+    "Melden Sie sich bei Ihrem AI-App-Generator an",
+
+  "enterEmail":
+    "E-Mail eingeben",
+
+  "enterPassword":
+    "Passwort eingeben",
+
+  "login":
+    "Anmelden",
+
+  "loggingIn":
+    "Anmeldung läuft...",
+
+  "continueGoogle":
+    "Mit Google fortfahren",
+
+  "dontHaveAccount":
+    "Haben Sie kein Konto?",
+
+  "register":
+    "Registrieren",
+
+  "createAccount":
+    "Konto erstellen",
+
+  "registerSubtitle":
+    "Erstellen Sie dynamische KI-gestützte Apps",
+
+  "enterName":
+    "Name eingeben",
+
+  "registering":
+    "Registrierung läuft...",
+
+  "alreadyHaveAccount":
+    "Haben Sie bereits ein Konto?",
+
+  "loginSuccess":
+    "Login erfolgreich",
+
+  "googleLoginSuccess":
+    "Google-Login erfolgreich",
+
+  "registerSuccess":
+    "Registrierung erfolgreich",
+
+  "loginFailed":
+    "Login fehlgeschlagen",
+
+  "registerFailed":
+    "Registrierung fehlgeschlagen"
+}

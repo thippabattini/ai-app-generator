@@ -1,0 +1,70 @@
+{
+  "welcomeBack": "Welcome Back",
+
+  "loginSubtitle": "Login to your AI App Generator",
+
+  "enterEmail": "Enter email",
+
+  "enterPassword": "Enter password",
+
+  "login": "Login",
+
+  "loggingIn": "Logging in...",
+
+  "continueGoogle": "Continue with Google",
+
+  "dontHaveAccount": "Don't have an account?",
+
+  "register": "Register",
+
+  "createAccount": "Create Account",
+
+  "registerSubtitle": "Build dynamic AI-powered apps",
+
+  "enterName": "Enter name",
+
+  "registering": "Registering...",
+
+  "alreadyHaveAccount": "Already have an account?",
+
+  "yourApps": "Your AI Apps",
+
+  "manageApps":
+    "Manage dynamic runtime applications",
+
+  "loadingApps": "Loading apps...",
+
+  "noApps": "No apps found",
+
+  "openRuntime": "Open Runtime",
+
+  "runtimeTitle":
+    "Dynamic Runtime Builder",
+
+  "runtimeSubtitle":
+    "Render applications dynamically",
+
+  "loadingRuntime":
+    "Loading Runtime Builder...",
+
+  "invalidRuntime":
+    "Invalid runtime configuration",
+
+  "noComponents":
+    "No components found",
+
+  "loginSuccess":
+    "Login successful",
+
+  "googleLoginSuccess":
+    "Google login successful",
+
+  "registerSuccess":
+    "Registration successful",
+
+  "loginFailed":
+    "Login failed",
+
+  "registerFailed":
+    "Registration failed"
+}

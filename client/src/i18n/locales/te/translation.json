@@ -1,0 +1,58 @@
+{
+  "welcomeBack":
+    "తిరిగి స్వాగతం",
+
+  "loginSubtitle":
+    "మీ AI యాప్ జనరేటర్‌లో లాగిన్ అవ్వండి",
+
+  "enterEmail":
+    "ఇమెయిల్ నమోదు చేయండి",
+
+  "enterPassword":
+    "పాస్‌వర్డ్ నమోదు చేయండి",
+
+  "login":
+    "లాగిన్",
+
+  "loggingIn":
+    "లాగిన్ అవుతోంది...",
+
+  "continueGoogle":
+    "Google తో కొనసాగించండి",
+
+  "dontHaveAccount":
+    "ఖాతా లేదా?",
+
+  "register":
+    "రిజిస్టర్ చేయండి",
+
+  "createAccount":
+    "ఖాతా సృష్టించండి",
+
+  "registerSubtitle":
+    "డైనమిక్ AI ఆధారిత యాప్‌లను నిర్మించండి",
+
+  "enterName":
+    "పేరు నమోదు చేయండి",
+
+  "registering":
+    "రిజిస్టర్ అవుతోంది...",
+
+  "alreadyHaveAccount":
+    "ఇప్పటికే ఖాతా ఉందా?",
+
+  "loginSuccess":
+    "లాగిన్ విజయవంతం",
+
+  "googleLoginSuccess":
+    "Google లాగిన్ విజయవంతం",
+
+  "registerSuccess":
+    "రిజిస్ట్రేషన్ విజయవంతం",
+
+  "loginFailed":
+    "లాగిన్ విఫలమైంది",
+
+  "registerFailed":
+    "రిజిస్ట్రేషన్ విఫలమైంది"
+}
