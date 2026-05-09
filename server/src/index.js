@@ -15,11 +15,14 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://ai-app-generator-client.onrender.com",
+    origin: [
+      "https://ai-app-generator-client.onrender.com",
+      "http://localhost:5173",
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
 );
-app.use(express.json());
 
 app.get("/", (req, res) => {
   res.json({
