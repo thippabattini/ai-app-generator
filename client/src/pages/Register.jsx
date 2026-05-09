@@ -36,44 +36,47 @@ function Register() {
     });
   };
 
-  const handleSubmit = async (
-    e
-  ) => {
-    e.preventDefault();
+  const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    try {
-      setLoading(true);
+  console.log("FORM DATA:", formData);
 
-      await api.post(
-        "/auth/register",
-        formData
-      );
+  try {
+    setLoading(true);
 
-      toast.success(
-        t("registerSuccess")
-      );
+    const response = await api.post(
+      "/auth/register",
+      {
+        name: formData.name,
+        email: formData.email,
+        password: formData.password,
+      }
+    );
 
-      navigate("/login");
-    } catch (error) {
-      console.error(
-        "Register error:",
-        error
-      );
+    console.log(response.data);
 
-      console.log(
-        error.response
-      );
+    toast.success(
+      t("registerSuccess")
+    );
 
-      toast.error(
-        error?.response?.data
-          ?.message ||
-          error.message ||
-          t("registerFailed")
-      );
-    } finally {
-      setLoading(false);
-    }
-  };
+    navigate("/login");
+
+  } catch (error) {
+    console.error(
+      "Register error:",
+      error.response?.data || error
+    );
+
+    toast.error(
+      error?.response?.data
+        ?.message ||
+        "Register failed"
+    );
+
+  } finally {
+    setLoading(false);
+  }
+};
 
   const changeLanguage = (
     lang
