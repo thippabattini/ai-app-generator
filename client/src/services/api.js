@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://ai-app-generator-clqi.onrender.com/api",
+  baseURL: "https://ai-app-generator-c1qi.onrender.com/api",
 });
 
 api.interceptors.request.use((config) => {
