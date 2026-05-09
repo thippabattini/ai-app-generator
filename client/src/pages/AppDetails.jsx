@@ -10,19 +10,19 @@ function AppDetails() {
   const { t, i18n } = useTranslation();
 
   const [loading, setLoading] =
-  useState(true);
+    useState(true);
 
-const configError =
-  !appConfig ||
-  !Array.isArray(appConfig);
+  const configError =
+    !appConfig ||
+    !Array.isArray(appConfig);
 
-useEffect(() => {
-  const timer = setTimeout(() => {
-    setLoading(false);
-  }, 500);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 500);
 
-  return () => clearTimeout(timer);
-}, []);
+    return () => clearTimeout(timer);
+  }, []);
 
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
@@ -31,7 +31,7 @@ useEffect(() => {
   if (loading) {
     return (
       <div className="runtime-loading">
-        Loading Runtime Builder...
+        {t("loadingRuntime")}
       </div>
     );
   }
@@ -39,7 +39,7 @@ useEffect(() => {
   if (configError) {
     return (
       <div className="runtime-error">
-        Invalid runtime configuration
+        {t("invalidRuntime")}
       </div>
     );
   }
@@ -99,7 +99,7 @@ useEffect(() => {
       <div className="runtime-content">
         {appConfig.length === 0 ? (
           <div className="runtime-empty">
-            No components found
+            {t("noComponents")}
           </div>
         ) : (
           appConfig.map(
