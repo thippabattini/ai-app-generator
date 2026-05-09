@@ -4,7 +4,14 @@ import prisma from "../utils/prisma.js";
 
 export const signup = async (req, res) => {
   try {
-    const { name, email, password } = req.body;
+    const { name, email, password } = req.body || {};
+
+    if (!name || !email || !password) {
+  return res.status(400).json({
+    success: false,
+    message: "All fields are required",
+  });
+}
 
     // check existing user
     const existingUser = await prisma.user.findUnique({
