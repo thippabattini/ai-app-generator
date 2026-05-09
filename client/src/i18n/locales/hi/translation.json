@@ -72,5 +72,11 @@
 "admin": "एडमिन",
 "manager": "प्रबंधक",
 "role": "भूमिका",
-"noDataFound": "कोई डेटा नहीं मिला"
+"noDataFound": "कोई डेटा नहीं मिला",
+"lavanya": "लावण्या",
+"rash": "राश",
+"lucy": "लूसी",
+"importCsvData": "CSV डेटा आयात करें",
+"runtimeTitle": "डायनामिक रनटाइम बिल्डर",
+"runtimeSubtitle": "एप्लिकेशन को डायनामिक रूप से रेंडर करें"
 }

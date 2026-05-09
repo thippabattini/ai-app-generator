@@ -74,5 +74,11 @@
 "admin": "Administrator",
 "manager": "Manager",
 "role": "Rolle",
-"noDataFound": "Keine Daten gefunden"
+"noDataFound": "Keine Daten gefunden",
+"lavanya": "Lavanya",
+"rash": "Rash",
+"lucy": "Lucy",
+"importCsvData": "CSV importieren",
+"runtimeTitle": "Dynamischer Runtime Builder",
+"runtimeSubtitle": "Anwendungen dynamisch rendern"
 }

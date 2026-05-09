@@ -38,12 +38,6 @@
 
   "openRuntime": "Open Runtime",
 
-  "runtimeTitle":
-    "Dynamic Runtime Builder",
-
-  "runtimeSubtitle":
-    "Render applications dynamically",
-
   "loadingRuntime":
     "Loading Runtime Builder...",
 
@@ -86,5 +80,11 @@
 "admin": "Admin",
 "manager": "Manager",
 "role": "Role",
-"noDataFound": "No Data Found"
+"noDataFound": "No Data Found", 
+"lavanya": "Lavanya",
+"rash": "Rash",
+"lucy": "Lucy",
+"importCsvData": "Import CSV Data",
+"runtimeTitle": "Dynamic Runtime Builder",
+"runtimeSubtitle": "Render applications dynamically"
 }

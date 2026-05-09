@@ -74,5 +74,11 @@
 "admin": "Administrador",
 "manager": "Gerente",
 "role": "Rol",
-"noDataFound": "No se encontraron datos"
+"noDataFound": "No se encontraron datos",
+"lavanya": "Lavanya",
+"rash": "Rash",
+"lucy": "Lucy",
+"importCsvData": "Importar CSV",
+"runtimeTitle": "Constructor Dinámico",
+"runtimeSubtitle": "Renderizar aplicaciones dinámicamente"
 }

@@ -58,16 +58,16 @@ const appConfig = [
 
     rows: [
       {
-        name: "Lavanya",
+        name: "lavanya",
         email:
           "lavanya@gmail.com",
         status: "active",
       },
 
       {
-        name: "Rash",
+        name: "rash",
         email:
-          "Rash@gmail.com",
+          "rash@gmail.com",
         status: "pending",
       },
     ],
@@ -86,14 +86,14 @@ const appConfig = [
 
     rows: [
       {
-        name: "Lavanya",
+        name: "lavanya",
         email:
           "lavanya@gmail.com",
         role: "admin",
       },
 
       {
-        name: "Lucy",
+        name: "lucy",
         email:
           "lucy@gmail.com",
         role: "manager",

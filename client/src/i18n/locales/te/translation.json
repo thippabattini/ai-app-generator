@@ -74,5 +74,11 @@
 "admin": "అడ్మిన్",
 "manager": "మేనేజర్",
 "role": "పాత్ర",
-"noDataFound": "డేటా లేదు"
+"noDataFound": "డేటా లేదు",
+"lavanya": "లావణ్య",
+"rash": "రాష్",
+"lucy": "లూసీ",
+"importCsvData": "CSV డేటా దిగుమతి",
+"runtimeTitle": "డైనమిక్ రన్‌టైమ్ బిల్డర్",
+"runtimeSubtitle": "అప్లికేషన్లను డైనమిక్‌గా రెండర్ చేయండి"
 }
