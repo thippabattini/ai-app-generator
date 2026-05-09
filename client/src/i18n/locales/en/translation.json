@@ -85,5 +85,6 @@
 "pending": "Pending",
 "admin": "Admin",
 "manager": "Manager",
-"role": "Role"
+"role": "Role",
+"noDataFound": "No Data Found"
 }

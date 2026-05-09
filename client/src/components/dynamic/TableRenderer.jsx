@@ -1,8 +1,12 @@
 import { useState } from "react";
 
+import { useTranslation } from "react-i18next";
+
 import CsvUploader from "./CsvUploader";
 
 function TableRenderer({ config }) {
+  const { t } = useTranslation();
+
   const [tableData, setTableData] =
     useState(config.rows || []);
 
@@ -12,8 +16,7 @@ function TableRenderer({ config }) {
   return (
     <div className="runtime-card">
       <h2 className="runtime-title">
-        {config.title ||
-          "Dynamic Table"}
+        {t(config.title)}
       </h2>
 
       <CsvUploader
@@ -26,7 +29,7 @@ function TableRenderer({ config }) {
             {columns.map(
               (col, index) => (
                 <th key={index}>
-                  {col}
+                  {t(col)}
                 </th>
               )
             )}
@@ -41,7 +44,7 @@ function TableRenderer({ config }) {
                   columns.length
                 }
               >
-                No Data Found
+                {t("noDataFound")}
               </td>
             </tr>
           ) : (
@@ -56,8 +59,18 @@ function TableRenderer({ config }) {
                       <td
                         key={colIndex}
                       >
-                        {row[col] ||
-                          "-"}
+                        {typeof row[
+                          col
+                        ] ===
+                        "string"
+                          ? t(
+                              row[
+                                col
+                              ].toLowerCase()
+                            )
+                          : row[
+                              col
+                            ] || "-"}
                       </td>
                     )
                   )}

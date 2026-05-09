@@ -73,5 +73,6 @@
 "pending": "Pendiente",
 "admin": "Administrador",
 "manager": "Gerente",
-"role": "Rol"
+"role": "Rol",
+"noDataFound": "No se encontraron datos"
 }
