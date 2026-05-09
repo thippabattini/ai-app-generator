@@ -61,14 +61,14 @@ const appConfig = [
         name: "Lavanya",
         email:
           "lavanya@gmail.com",
-        status: "Active",
+        status: "active",
       },
 
       {
         name: "Rash",
         email:
           "Rash@gmail.com",
-        status: "Pending",
+        status: "pending",
       },
     ],
   },
@@ -76,7 +76,7 @@ const appConfig = [
   {
     type: "table",
 
-    title: "Imported Data",
+    title: "importedData",
 
     columns: [
       "name",
@@ -89,14 +89,14 @@ const appConfig = [
         name: "Lavanya",
         email:
           "lavanya@gmail.com",
-        role: "Admin",
+        role: "admin",
       },
 
       {
         name: "Lucy",
         email:
           "lucy@gmail.com",
-        role: "Manager",
+        role: "manager",
       },
     ],
   },
