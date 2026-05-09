@@ -67,5 +67,11 @@
 "customerRecords": "Kundendaten",
 "name": "Name",
 "email": "E-Mail",
-"status": "Status"
+"status": "Status",
+"importedData": "Importierte Daten",
+"active": "Aktiv",
+"pending": "Ausstehend",
+"admin": "Administrator",
+"manager": "Manager",
+"role": "Rolle"
 }

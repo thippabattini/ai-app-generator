@@ -67,5 +67,11 @@
 "customerRecords": "కస్టమర్ రికార్డులు",
 "name": "పేరు",
 "email": "ఈమెయిల్",
-"status": "స్థితి"
+"status": "స్థితి",
+"importedData": "దిగుమతి చేసిన డేటా",
+"active": "సక్రియం",
+"pending": "పెండింగ్",
+"admin": "అడ్మిన్",
+"manager": "మేనేజర్",
+"role": "పాత్ర"
 }

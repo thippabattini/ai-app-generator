@@ -65,5 +65,11 @@
 "customerRecords": "ग्राहक रिकॉर्ड",
 "name": "नाम",
 "email": "ईमेल",
-"status": "स्थिति"
+"status": "स्थिति",
+"importedData": "आयातित डेटा",
+"active": "सक्रिय",
+"pending": "लंबित",
+"admin": "एडमिन",
+"manager": "प्रबंधक",
+"role": "भूमिका"
 }

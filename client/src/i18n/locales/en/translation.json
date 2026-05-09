@@ -79,5 +79,11 @@
 "customerRecords": "Customer Records",
 "name": "Name",
 "email": "Email",
-"status": "Status"
+"status": "Status",
+"importedData": "Imported Data",
+"active": "Active",
+"pending": "Pending",
+"admin": "Admin",
+"manager": "Manager",
+"role": "Role"
 }

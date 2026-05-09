@@ -67,5 +67,11 @@
 "customerRecords": "Registros del Cliente",
 "name": "Nombre",
 "email": "Correo",
-"status": "Estado"
+"status": "Estado",
+"importedData": "Datos Importados",
+"active": "Activo",
+"pending": "Pendiente",
+"admin": "Administrador",
+"manager": "Gerente",
+"role": "Rol"
 }
