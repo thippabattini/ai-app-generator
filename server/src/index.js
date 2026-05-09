@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
+
 import authRoutes from "./routes/authRoutes.js";
 import appRoutes from "./routes/appRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
@@ -12,6 +13,9 @@ import dynamicDbRoutes from "./routes/dynamicDbRoutes.js";
 dotenv.config();
 
 const app = express();
+
+/* IMPORTANT */
+app.use(express.json());
 
 app.use(
   cors({
