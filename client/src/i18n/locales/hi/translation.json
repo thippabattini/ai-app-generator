@@ -52,5 +52,18 @@
     "लॉगिन विफल",
 
   "registerFailed":
-    "पंजीकरण विफल"
+    "पंजीकरण विफल",
+
+  "businessOverview": "व्यापार अवलोकन",
+"users": "उपयोगकर्ता",
+"revenue": "राजस्व",
+"growth": "विकास",
+"customerForm": "ग्राहक फ़ॉर्म",
+"customerName": "ग्राहक नाम",
+"emailAddress": "ईमेल पता",
+"company": "कंपनी",
+"customerRecords": "ग्राहक रिकॉर्ड",
+"name": "नाम",
+"email": "ईमेल",
+"status": "स्थिति"
 }

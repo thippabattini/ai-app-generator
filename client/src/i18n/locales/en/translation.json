@@ -66,5 +66,18 @@
     "Login failed",
 
   "registerFailed":
-    "Registration failed"
+    "Registration failed",
+
+"businessOverview": "Business Overview",
+"users": "Users",
+"revenue": "Revenue",
+"growth": "Growth",
+"customerForm": "Customer Form",
+"customerName": "Customer Name",
+"emailAddress": "Email Address",
+"company": "Company",
+"customerRecords": "Customer Records",
+"name": "Name",
+"email": "Email",
+"status": "Status"
 }

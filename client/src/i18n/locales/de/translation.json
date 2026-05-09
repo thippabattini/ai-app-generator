@@ -54,5 +54,18 @@
     "Login fehlgeschlagen",
 
   "registerFailed":
-    "Registrierung fehlgeschlagen"
+    "Registrierung fehlgeschlagen",
+
+  "businessOverview": "Geschäftsübersicht",
+"users": "Benutzer",
+"revenue": "Einnahmen",
+"growth": "Wachstum",
+"customerForm": "Kundenformular",
+"customerName": "Kundenname",
+"emailAddress": "E-Mail-Adresse",
+"company": "Firma",
+"customerRecords": "Kundendaten",
+"name": "Name",
+"email": "E-Mail",
+"status": "Status"
 }

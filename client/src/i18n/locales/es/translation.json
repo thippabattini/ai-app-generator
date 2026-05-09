@@ -54,5 +54,18 @@
     "Error al iniciar sesión",
 
   "registerFailed":
-    "Registro fallido"
+    "Registro fallido",
+
+  "businessOverview": "Resumen del Negocio",
+"users": "Usuarios",
+"revenue": "Ingresos",
+"growth": "Crecimiento",
+"customerForm": "Formulario del Cliente",
+"customerName": "Nombre del Cliente",
+"emailAddress": "Correo Electrónico",
+"company": "Empresa",
+"customerRecords": "Registros del Cliente",
+"name": "Nombre",
+"email": "Correo",
+"status": "Estado"
 }
